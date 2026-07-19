@@ -116,3 +116,5 @@ The Silver layer is where most of the real data-quality work happens:
 ```sql
 SELECT TOP 5 * FROM gold.fact_sales_details;
 ```
+
+![Sample Output](images/sample_output.png)
