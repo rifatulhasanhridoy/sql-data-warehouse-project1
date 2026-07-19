@@ -1,0 +1,82 @@
+<svg viewBox="0 0 1150 560" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1150" height="560" fill="#ffffff"/>
+  <text x="40" y="45" font-size="26" font-weight="bold" fill="#1e293b">Data Integration</text>
+  <text x="330" y="45" font-size="15" fill="#64748b">(how the source tables relate)</text>
+  <line x1="40" y1="60" x2="1110" y2="60" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- CRM group -->
+  <rect x="55" y="130" width="500" height="380" fill="none" stroke="#94a3b8" stroke-dasharray="4,3" rx="8"/>
+  <text x="230" y="115" font-size="13" fill="#64748b">Customer Relationship Management</text>
+  <rect x="230" y="150" width="150" height="34" fill="#bfdbfe" stroke="#2563eb" rx="4"/>
+  <text x="305" y="172" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e3a8a">CRM</text>
+
+  <!-- crm_sales_details -->
+  <text x="80" y="240" font-size="11.5" fill="#64748b">Transactional records</text>
+  <text x="80" y="253" font-size="11.5" fill="#64748b">about sales &amp; orders</text>
+  <rect x="80" y="265" width="180" height="90" fill="#ffffff" stroke="#94a3b8" rx="4"/>
+  <rect x="80" y="265" width="180" height="26" fill="#bfdbfe" rx="4"/>
+  <text x="170" y="283" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#1e3a8a">crm_sales_details</text>
+  <text x="90" y="308" font-size="12" fill="#334155">prd_key</text>
+  <text x="90" y="328" font-size="12" fill="#334155">cst_id</text>
+  <rect x="80" y="335" width="180" height="20" fill="#e9d5ff" rx="0"/>
+  <text x="170" y="350" font-size="11" font-weight="bold" text-anchor="middle" fill="#581c87">SALES</text>
+
+  <!-- crm_prd_info -->
+  <text x="340" y="240" font-size="11.5" fill="#64748b">Current &amp; history</text>
+  <text x="340" y="253" font-size="11.5" fill="#64748b">product information</text>
+  <rect x="340" y="265" width="180" height="90" fill="#ffffff" stroke="#94a3b8" rx="4"/>
+  <rect x="340" y="265" width="180" height="26" fill="#bfdbfe" rx="4"/>
+  <text x="430" y="283" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#1e3a8a">crm_prd_info</text>
+  <text x="350" y="308" font-size="12" fill="#334155">prd_key</text>
+  <rect x="340" y="335" width="180" height="20" fill="#fecaca" rx="0"/>
+  <text x="430" y="350" font-size="11" font-weight="bold" text-anchor="middle" fill="#7f1d1d">PRODUCT</text>
+
+  <!-- crm_cust_info -->
+  <text x="340" y="400" font-size="11.5" fill="#64748b">Customer information</text>
+  <rect x="340" y="412" width="180" height="80" fill="#ffffff" stroke="#94a3b8" rx="4"/>
+  <rect x="340" y="412" width="180" height="26" fill="#bfdbfe" rx="4"/>
+  <text x="430" y="430" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#1e3a8a">crm_cust_info</text>
+  <text x="350" y="455" font-size="12" fill="#334155">cst_id</text>
+  <text x="350" y="472" font-size="12" fill="#334155">cst_key</text>
+  <rect x="340" y="478" width="180" height="14" fill="#bbf7d0" rx="0"/>
+
+  <!-- connectors within CRM -->
+  <line x1="260" y1="310" x2="340" y2="278" stroke="#94a3b8"/>
+  <line x1="260" y1="330" x2="340" y2="450" stroke="#94a3b8"/>
+
+  <!-- ERP group -->
+  <rect x="600" y="130" width="500" height="380" fill="none" stroke="#94a3b8" stroke-dasharray="4,3" rx="8"/>
+  <text x="800" y="115" font-size="13" fill="#64748b">Enterprise Resource Planning</text>
+  <rect x="760" y="150" width="150" height="34" fill="#fde68a" stroke="#b45309" rx="4"/>
+  <text x="835" y="172" font-size="14" font-weight="bold" text-anchor="middle" fill="#78350f">ERP</text>
+
+  <!-- erp_px_cat -->
+  <text x="890" y="240" font-size="11.5" fill="#64748b">Product categories</text>
+  <rect x="890" y="252" width="180" height="80" fill="#ffffff" stroke="#94a3b8" rx="4"/>
+  <rect x="890" y="252" width="180" height="26" fill="#fde68a" rx="4"/>
+  <text x="980" y="270" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#78350f">erp_px_cat_g1v2</text>
+  <text x="900" y="295" font-size="12" fill="#334155">id</text>
+  <rect x="890" y="315" width="180" height="17" fill="#fecaca" rx="0"/>
+  <text x="980" y="328" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#7f1d1d">PRODUCT</text>
+
+  <!-- erp_cust_az12 -->
+  <text x="890" y="378" font-size="11.5" fill="#64748b">Extra customer info (birthdate)</text>
+  <rect x="890" y="390" width="180" height="70" fill="#ffffff" stroke="#94a3b8" rx="4"/>
+  <rect x="890" y="390" width="180" height="26" fill="#fde68a" rx="4"/>
+  <text x="980" y="408" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#78350f">erp_cust_az12</text>
+  <text x="900" y="432" font-size="12" fill="#334155">cid</text>
+  <rect x="890" y="446" width="180" height="14" fill="#bbf7d0" rx="0"/>
+
+  <!-- erp_loc_a101 -->
+  <text x="670" y="378" font-size="11.5" fill="#64748b">Location of customer (country)</text>
+  <rect x="670" y="390" width="180" height="70" fill="#ffffff" stroke="#94a3b8" rx="4"/>
+  <rect x="670" y="390" width="180" height="26" fill="#fde68a" rx="4"/>
+  <text x="760" y="408" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#78350f">erp_loc_a101</text>
+  <text x="680" y="432" font-size="12" fill="#334155">cid</text>
+  <rect x="670" y="446" width="180" height="14" fill="#bbf7d0" rx="0"/>
+
+  <!-- cross-group connectors -->
+  <line x1="520" y1="278" x2="890" y2="290" stroke="#94a3b8"/>
+  <line x1="520" y1="450" x2="670" y2="425" stroke="#94a3b8"/>
+  <line x1="670" y1="425" x2="890" y2="425" stroke="#94a3b8"/>
+</svg>
